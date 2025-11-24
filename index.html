@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kovai Suvai Kimchi — Authentic Korean Kitchen (Cloud + Pushcart)</title>
+  <meta name="description" content="Home-made Korean food in Coimbatore — kimchi, kimbap, tteokbokki and more. Order via Instagram or WhatsApp." />
+  <style>
+    :root{--accent:#D7263D;--dark:#222;--muted:#6b6b6b}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;color:var(--dark);line-height:1.45}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;border-bottom:1px solid #eee;background:#fff;position:sticky;top:0;z-index:30}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,#f8f8f8,#eee);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)}
+    nav a{margin-left:14px;text-decoration:none;color:var(--muted)}
+    .container{max-width:1100px;margin:28px auto;padding:0 18px}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:22px;align-items:center}
+    .hero h1{font-size:32px;margin:0}
+    .tag{color:var(--accent);font-weight:600}
+    .card{background:#fff;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(20,20,20,0.04)}
+    .about p{margin-top:8px;color:var(--muted)}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-outline{border:1px solid var(--accent);color:var(--accent);background:transparent}
+    .menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .menu-item{display:flex;gap:12px;align-items:center}
+    .menu-item img{width:96px;height:72px;border-radius:8px;object-fit:cover}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+    footer{padding:28px 0;color:var(--muted);text-align:center;font-size:14px}
+    @media (max-width:880px){.hero{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:26px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+       <img src="logo.png" style="height: 50px;" alt="logo">
+      <div>
+        <div style="font-weight:700">Kovai Suvai Kimchi</div>
+        <div style="font-size:12px;color:var(--muted)">Home-made Korean food — Cloud kitchen & pushcart</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#order">Order</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Kovai Suvai Kimchi <span class="tag">— Authentic Korean home-cooking</span></h1>
+        <div class="card about" style="margin-top:14px">
+          <p><strong>Owners:</strong> Mohmed Yunus & Femina</p>
+          <p>We started as a home cloud kitchen delivering Korean dishes to friends and neighbours. Now we run a small pushcart and continue to make homestyle kimchi and Korean street bites — inspired by Femina's love for K-drama and Korean cuisine.</p>
+          <p style="margin-top:10px">We focus on: <strong>fresh kimchi, kimbap, tteokbokki, jajangmyeon-style fusion & seasonal Korean side dishes</strong>.</p>
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <a class="btn btn-primary" href="https://www.instagram.com/kovai.suvai.kimchi/" target="_blank">Follow on Instagram</a>
+            <a class="btn btn-outline" href="#order">Order / WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin:0 0 8px 0">Today’s Highlights</h3>
+          <ul style="padding-left:18px;margin:0;color:var(--muted)">
+            <li>Signature: Spicy Napa Kimchi (homemade)</li>
+            <li>Pushcart special: Kimchi Pancake + Tea</li>
+            <li>Pre-order: Kimbap Rolls (veg & chicken)</li>
+          </ul>
+          <div style="margin-top:12px;font-size:13px;color:var(--muted)">Delivery: Local area / Pickup from pushcart. For larger orders DM on Instagram or WhatsApp.</div>
+        </div>
+
+        <div class="card" style="margin-top:12px;text-align:center">
+          <div style="font-size:12px;color:var(--muted);margin-bottom:8px">Quick Contact</div>
+          <div style="font-weight:700">WhatsApp: +91 8098824308</div>
+          <div style="margin-top:8px"><a class="btn" href="https://wa.me/918098824308" target="_blank">Chat on WhatsApp</a></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="menu" style="margin-top:28px">
+      <h2 style="margin-bottom:8px">Menu (sample)</h2>
+      <div class="menu-grid">
+        <div class="card menu-item">
+          <img src="kimchi.png" alt="kimchi">
+          <div>
+            <div style="font-weight:700">Homestyle Napa Kimchi</div>
+            <div style="color:var(--muted);font-size:13px">500 g jar — perfect with rice</div>
+            <div style="margin-top:6px;font-weight:600">₹180</div>
+          </div>
+        </div>
+
+        <div class="card menu-item">
+          <img src="kimbap.png" alt="kimbap">
+          <div>
+            <div style="font-weight:700">Kimbap Rolls (Veg / Chicken)</div>
+            <div style="color:var(--muted);font-size:13px">Served with pickles</div>
+            <div style="margin-top:6px;font-weight:600">₹140 / ₹170</div>
+          </div>
+        </div>
+
+        <div class="card menu-item">
+          <img src="tteokbokki.png" alt="tteokbokki">
+          <div>
+            <div style="font-weight:700">Tteokbokki</div>
+            <div style="color:var(--muted);font-size:13px">Sweet & spicy rice cakes</div>
+            <div style="margin-top:6px;font-weight:600">₹160</div>
+          </div>
+        </div>
+
+        <div class="card menu-item">
+          <img src="pancake.png" alt="pancake">
+          <div>
+            <div style="font-weight:700">Kimchi Pancake</div>
+            <div style="color:var(--muted);font-size:13px">Crispy, made to order</div>
+            <div style="margin-top:6px;font-weight:600">₹120</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" style="margin-top:28px">
+      <h2 style="margin-bottom:8px">Gallery</h2>
+      <p style="color:var(--muted);margin:6px 0 12px 0">Photos pulled from our Instagram — replace these with real image URLs from your page.</p>
+      <div class="gallery card" style="padding:12px;grid-template-columns:repeat(3,1fr)">
+        <img src="1.png" alt="food">
+        <img src="2.png" alt="food">
+	<img src="3.png" alt="food">
+	<img src="4.png" alt="food">
+	<img src="5.png" alt="food">
+	<img src="6.png" alt="food">
+	<img src="7.png" alt="food">
+	<img src="8.png" alt="food">
+	<img src="9.png" alt="food">
+	<img src="10.png" alt="food">
+	<img src="11.png" alt="food">
+	<img src="12.png" alt="food">
+
+      </div>
+    </section>
+
+    <section id="order" style="margin-top:28px">
+      <h2 style="margin-bottom:8px">Order / Bookings</h2>
+      <div class="card" style="display:grid;grid-template-columns:1fr 320px;gap:18px">
+        <div>
+          <p style="color:var(--muted)">To place an order: DM on Instagram or click the WhatsApp button. For bulk orders and event catering, please fill the short form.</p>
+          <form id="orderForm" onsubmit="submitOrder(event)">
+            <div style="display:flex;gap:8px;margin-bottom:8px"><input required name="name" placeholder="Your name" style="flex:1;padding:8px;border-radius:8px;border:1px solid #ddd"/></div>
+            <div style="display:flex;gap:8px;margin-bottom:8px"><input required name="phone" placeholder="Phone (WhatsApp number)" style="flex:1;padding:8px;border-radius:8px;border:1px solid #ddd"/></div>
+            <div style="margin-bottom:8px"><textarea name="note" placeholder="Order details / date / pickup or delivery" style="width:100%;padding:8px;border-radius:8px;border:1px solid #ddd" rows="4"></textarea></div>
+            <div><button class="btn btn-primary" type="submit">Send order request</button></div>
+          </form>
+          <div id="msg" style="margin-top:10px;color:var(--muted)"></div>
+        </div>
+
+        <aside style="display:flex;flex-direction:column;gap:10px;align-items:flex-start">
+          <div style="font-size:13px;color:var(--muted)">Quick Links</div>
+          <a class="btn" href="https://www.instagram.com/kovai.suvai.kimchi/" target="_blank">Instagram</a>
+          <a class="btn" href="https://wa.me/919XXXXXXXX" target="_blank">WhatsApp</a>
+          <div style="font-size:12px;color:var(--muted);margin-top:12px">Tip: Add a map or pushcart schedule here once locations are finalized.</div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>Kovai Suvai Kimchi — Made with ❤️ by Mohmed & Femina</div>
+      <div style="margin-top:6px;color:var(--muted);font-size:13px">Follow us on Instagram: <a href="https://www.instagram.com/kovai.suvai.kimchi/" target="_blank">@kovai.suvai.kimchi</a></div>
+    </div>
+  </footer>
+
+  <script>
+    function submitOrder(e){
+      e.preventDefault();
+      const form = e.target;
+      const data = new FormData(form);
+      const name = data.get('name');
+      const phone = data.get('phone');
+      const note = data.get('note');
+      const msg = document.getElementById('msg');
+      // Because we don't have a backend here, we create a WhatsApp prefill link.
+      const text = encodeURIComponent('Order from ' + name + ' (+'+phone+'): ' + note);
+      const waLink = 'https://wa.me/' + phone.replace(/\D/g,'') + '?text=' + text;
+      msg.innerHTML = 'We will open WhatsApp for you to send the order. If it doesn\'t open, copy this message and send it to our WhatsApp number.';
+      setTimeout(()=>{ window.open(waLink,'_blank'); },200);
+    }
+  </script>
+</body>
+</html>
